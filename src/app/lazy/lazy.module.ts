@@ -10,6 +10,7 @@ import { MdInputModule } from '@angular/material';
     RouterModule.forChild([
       { path: '', component: LazyComponent }
     ]),
+    // Comment this out, save 200k
     MdInputModule,
   ],
   declarations: [LazyComponent]
